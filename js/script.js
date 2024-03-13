@@ -22,7 +22,9 @@ const myUlWhile = document.querySelector('.shop-list-while');
 
 let i = 0;
 while (i < list.length) {
-    console.log(list[i]);
+    let listArrayWhile = list[i];
+
+    myUlWhile.innerHTML += `<li>${listArrayWhile}</li>`
 
     i++
 }
