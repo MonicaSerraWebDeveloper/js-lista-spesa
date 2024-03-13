@@ -18,6 +18,8 @@ for (let i = 0; i < list.length; i++) { // Scorriamo l'intera lista
     myUlFor.innerHTML += `<li>${listArrayFor}</li>` // Aggiungiamola nel DOM
 }
 
+const myUlWhile = document.querySelector('.shop-list-while');
+
 let i = 0;
 while (i < list.length) {
     console.log(list[i]);
