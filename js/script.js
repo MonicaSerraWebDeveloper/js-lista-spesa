@@ -10,7 +10,7 @@ const list = [
     'Piatti pronti'
 ];
 
-const myUlFor = document.querySelector('.shop-list');
+const myUlFor = document.querySelector('.shop-list-for');
 
 for (let i = 0; i < list.length; i++) { // Scorriamo l'intera lista 
     let listArrayFor = list[i]; // Prendiamo ogni singola voce
