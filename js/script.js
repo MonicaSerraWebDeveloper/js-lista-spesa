@@ -10,11 +10,13 @@ const list = [
     'Piatti pronti'
 ];
 
-console.log(list);
+const myUl = document.querySelector('.shop-list');
+console.log(myUl);
 
 for (let i = 0; i < list.length; i++) {
     let listArray = list[i];
 
+    myUl.innerHTML += `<li>${listArray}</li>`
 }
 
 // Scorriamo l'intera lista 
