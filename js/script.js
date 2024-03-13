@@ -10,15 +10,18 @@ const list = [
     'Piatti pronti'
 ];
 
-const myUl = document.querySelector('.shop-list');
-console.log(myUl);
+const myUlFor = document.querySelector('.shop-list');
 
-for (let i = 0; i < list.length; i++) {
-    let listArray = list[i];
+for (let i = 0; i < list.length; i++) { // Scorriamo l'intera lista 
+    let listArrayFor = list[i]; // Prendiamo ogni singola voce
 
-    myUl.innerHTML += `<li>${listArray}</li>`
+    myUlFor.innerHTML += `<li>${listArrayFor}</li>` // Aggiungiamola nel DOM
 }
 
-// Scorriamo l'intera lista 
-// Prendiamo ogni singola voce
-// Aggiungiamola nel DOM
+let i = 0;
+while (i < list.length) {
+    console.log(list[i]);
+
+    i++
+}
+
