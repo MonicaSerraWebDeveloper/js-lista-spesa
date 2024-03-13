@@ -9,3 +9,14 @@ const list = [
     'Pomodori',
     'Piatti pronti'
 ];
+
+console.log(list);
+
+for (let i = 0; i < list.length; i++) {
+    let listArray = list[i];
+
+}
+
+// Scorriamo l'intera lista 
+// Prendiamo ogni singola voce
+// Aggiungiamola nel DOM
